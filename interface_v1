@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a all in one autmation system that YOU control to give all the good TLC(Tender Love & Care) to your plants at home.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+body{
+    margin:0;
+    padding:5px;
+    background-color: tan;
+}
+h1{
+    margin:10px;
+    padding:5px;
+background-color: blanchedalmond;
+color: darkgreen;
+}
+.browser >article, p{
+    margin:4px;
+    font-size:90%;
+    background: green;
+    
+}
+.browser  {
+    margin:40;
+    padding: 10px;
+    border: 3.5px solid green;
+    height: 50;
+    
+}
+footer {
+    margin: 20;
+    padding: 20;
+    font-family: sans-serif;
+    left: 50;
+}
+
+.box {
+    width: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+    background-image: url("alt\ img.jpg");
+    text-align: center;
+    
+}
+.box h3
+ {
+color:white;
+text-transform: uppercase;
+font-weight: 700;
+
+}
+.box input[type="text"],.box input[type="password"]
+{
+    border:0;
+    background:none;
+    display: block;
+    margin:10px auto;
+    text-align: center;
+    border:3px solid green;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+
+    width: 270px;
+    border-color:greenyellow;
+
+}
+.box input[type="submit"]{
+    border:0;
+    background:none;
+    display: block;
+    margin:10px auto;
+    text-align: center;
+    border:3px solid greenyellow;
+    padding: 14px 10px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor:pointer;
+}
+.box input[type="submit"]:hover {
+    background: greenyellow;
+}
+ </style>
+ </head>
+
+<body>
+       <img src="640x799 house plant pictures.jpg" alt="Option 1 of house plant view" >
+            <img src="plant.gif" alt="Growth of plants" align="right" >
+            <h1>
+            <center>   Welcome to Lucia plant care system</center>
+            </h1> 
+
+         <hr style="width: 25%;"> <br/>
+         <p style="margin: 0.5%;"> 
+            <!--figure out why the css code isn't boxing in this comment or if there is a simpler solution-->
+            <!--class="box": code for connecting the box -->
+        
+         <!--Change video source to videography of system-->
+         <center>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XWU90dIbPYQ?si=4jy53YxKBlChws4I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+        </center>
+        </p>
+
+            
+            <article class="browser">
+                <h2> <center>What is Lucia plant care.</center></h2>
+                <p> 
+            <big>
+                <center> Lucia plant care is an autmation system that allows you to be more hands on with your plants while your 
+                away out of town or at work and would like to check in. The system is directed for all green thumb individuals for an easy 
+                activation to your plants needs.
+            </center>
+             </big></p>
+
+            </article>
+<footer>
+    
+    <form class="box" action="login.html" method="POST">
+        <h3>
+       <center>Login: </center>
+        </h3>
+    <center>
+            <input type="text" name="" placeholder="Enter username" id="username">
+            <input type="password" name="" placeholder="Enter password" id="password">
+            <input type="submit" name=""value="Login" >
+        </center>
+    </form>
+</footer>
+        
+    </body>
+</html>
